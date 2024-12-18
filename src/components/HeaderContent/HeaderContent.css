@@ -1,0 +1,56 @@
+.header_info {
+  padding: 50px 0 55px;
+  gap: 75px;
+}
+.header_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_info-left h1 {
+  max-width: 700px;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 107%;
+  color: #000;
+  margin-bottom: 20px;
+}
+.header_info-left p {
+  max-width: 580px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 133%;
+  color: #000;
+  margin-bottom: 50px;
+}
+.header_info-left form {
+  border: 3px solid #06f;
+  border-radius: 5px 0 0 5px;
+  max-width: 416px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.header_info-left input {
+  max-width: 60%;
+  width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  color: #9ca0ac;
+  padding: 16px 0 16px 13px;
+  background: white;
+}
+.header_info-left button {
+  max-width: 40%;
+  width: 100%;
+  padding: 16px 15px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 133%;
+  color: #fff;
+  background: #06f;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
