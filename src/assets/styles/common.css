@@ -1,19 +1,19 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  border: none;
-  outline: none;
+  margin:  0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  list-style: none !important;
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
 }
 button:focus{
-  border: none;
-  outline: none;
+  border: none !important;
+  outline: none !important;
 }
 .container{
-  max-width: 1300px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+  max-width: 1300px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 15px !important;
 }

@@ -1,5 +1,5 @@
 .header_info {
-  padding: 50px 0 55px;
+  padding: 50px 0 55px !important;
   gap: 75px;
 }
 .header_info {
@@ -10,10 +10,14 @@
 .header_info-left h1 {
   max-width: 700px;
   font-weight: 900;
-  font-size: 55px;
-  line-height: 107%;
+  font-size: 50px !important;
+  line-height: 130%;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
+}
+.header_info-left mark{
+  background: yellow !important;
+  padding: 0 !important;
 }
 .header_info-left p {
   max-width: 580px;
@@ -21,36 +25,57 @@
   font-size: 19px;
   line-height: 133%;
   color: #000;
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
 .header_info-left form {
-  border: 3px solid #06f;
-  border-radius: 5px 0 0 5px;
+  border: 3px solid #06f !important;
+  border-radius: 5px 0 0 5px !important;
   max-width: 416px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 .header_info-left input {
   max-width: 60%;
   width: 100%;
-  font-weight: 400;
-  font-size: 15px;
-  color: #9ca0ac;
-  padding: 16px 0 16px 13px;
-  background: white;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  color: #9ca0ac !important;
+  padding: 16px 0 16px 13px !important;
+  background: white !important;
 }
 .header_info-left button {
   max-width: 40%;
   width: 100%;
-  padding: 16px 15px;
+  padding: 18px 15px !important;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 15px !important;
   line-height: 133%;
-  color: #fff;
-  background: #06f;
+  color: #fff !important;
+  background: #06f !important;
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.header_info-right img {
+  max-width: 527px;
+  width: 100%;
+}
+.header_info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px !important;
+  padding-bottom: 55px !important;
+}
+.header_info-text p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #9ca0ac;
+  text-transform: uppercase;
+}
+.header_info-text img {
+  max-width: 830px;
+  width: 100%;
 }

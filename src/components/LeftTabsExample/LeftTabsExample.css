@@ -1,0 +1,28 @@
+.tabs-info {
+  padding: 160px 0 !important;
+}
+.tab-title {
+  font-weight: 900;
+  font-size: 45px;
+  color: #000;
+  margin-bottom: 30px !important;
+}
+.tab-item {
+  padding: 15px !important;
+  display: flex;
+  align-items: center;
+  gap: 15px !important;
+}
+.tab-item span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #9ca0ac;
+}
+.tab-item:focus span{
+    color: white;
+}
+.tabs-content{
+    display: flex;
+    align-items: center;
+}
